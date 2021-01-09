@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="shop.png" type="image/x-icon" />
+    <title>Shopping Cart</title>
+  </head>
+  <body>
+    <!--navbar-->
+    <nav class="navbar navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand">Shopping Cart</a>
+        <form class="d-flex">
+          <input
+            class="form-control me-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success" type="submit">
+            Search product
+          </button>
+        </form>
+      </div>
+    </nav>
+    <button type="button" class="btn btn-primary add">Add New Product</button>
+
+    <!--content-->
+    <main>
+      <section class="prod">
+        <!--iphone line-->
+
+        <div class="li-cl">
+          <div class="imgage">
+            <img src="iphone.jpg" alt="no-product_image" class="img" />
+          </div>
+          <span class="price-title">Price:</span>
+          <span class="price price-1" type="number"></span>
+
+          <div class="d-grid gap-2 d-md-block btn-1">
+            <button class="btn btn-primary btnplus" type="button">+</button>
+            <input type="text" class="qte qte-1" />
+            <button class="btn btn-primary btnmoin" type="button">-</button>
+          </div>
+          <div class="btn-delete">Delete</div>
+          <i class="fas fa-heart"></i>
+        </div>
+
+        <div class="li-cl">
+          <div class="imgage">
+            <img src="racket.jpg" alt="no-product_image" class="img" />
+          </div>
+          <span class="price-title">Price:</span>
+          <span class="price price-2" type="number"></span>
+
+          <div class="d-grid gap-2 d-md-block btn-2">
+            <button class="btn btn-primary btnplus" type="button">+</button>
+            <input type="text" class="qte qte-2" />
+            <button class="btn btn-primary btnmoin" type="button">-</button>
+          </div>
+          <div class="btn-delete">Delete</div>
+          <i class="fas fa-heart"></i>
+        </div>
+
+        <div class="li-cl">
+          <div class="imgage">
+            <img src="ballon.jpg" alt="no-product_image" class="img" />
+          </div>
+          <span class="price-title">Price:</span>
+          <span class="price price-3" type="number"></span>
+
+          <div class="d-grid gap-2 d-md-block btn-3">
+            <button class="btn btn-primary btnplus" type="button">+</button>
+            <input type="text" class="qte qte-3" />
+            <button class="btn btn-primary btnmoin" type="button">-</button>
+          </div>
+          <div class="btn-delete">Delete</div>
+
+          <i class="fas fa-heart"></i>
+        </div>
+      </section>
+      <section class="total">
+        <span id="text_price">Total price =></span>
+        <span class="total-price">1500</span>
+      </section>
+    </main>
+    <script src="file.js"></script>
+  </body>
+</html>

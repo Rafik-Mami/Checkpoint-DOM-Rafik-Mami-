@@ -1,0 +1,90 @@
+.li-cl{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background:white;
+   /* border:1px solid #808080;*/
+   border: 10px solid #D3D3D3	;
+    border-radius: 15px;
+    margin: auto;
+    width: 80%;
+    margin-bottom: 20px;
+}
+.add{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.prod{
+    margin-top: 130px;
+}
+.img{
+    border-radius: 20px;
+}
+.prod-title{
+    font-family:Arial, Helvetica, sans-serif;
+    margin-right: 50px;
+}
+.favoris{
+    background: cornsilk;
+    color:black;
+}
+.btn-danger{
+    margin-left:180px ;
+}
+.price ,.price-title{
+    background: white;
+    border: 2px solid #0000CD;
+    border-radius: 4px;
+    width: 100px;
+    height: 30px;
+}
+.d-grid{
+
+    margin-left: 20px;
+}
+.total{
+    background:#212529;
+    width: 100%;
+    margin:auto;
+    height: 100px;
+}
+.total{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#text_price,.total-price{
+    background: white;
+    color: black;
+    width: 220px;
+    height: 40px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    
+    text-align: center;
+}
+.total-price{
+    margin-right: 50px;
+    
+}
+
+.btn-delete,.bout{
+color: #fff;
+background-color: #dc3545;
+border-color: #dc3545;
+cursor: pointer;
+border: 1px solid transparent;
+padding: .375rem .75rem;
+font-size: 1rem;
+border-radius: .25rem;
+transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.qte{
+    width: 30px;
+
+height: 20px;}
+.total{
+
+    padding-top: 35px;
+}
